@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - '20.9.0'
+cache: yarn
+script:
+  - yarn
+  - yarn test:ci
+notifications:
+  email: false

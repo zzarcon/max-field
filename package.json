@@ -1,0 +1,43 @@
+{
+  "name": "max-field",
+  "version": "0.0.1",
+  "description": "unstyled, opinionated, easy-to-adopt, max length indicator",
+  "main": "dist/es5/index.js",
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@types/jest": "^29.5.6",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "react-gh-corner": "^1.1.4",
+    "ts-loader": "^9.5.0",
+    "ts-react-toolbox": "^2.0.1"
+  },
+  "scripts": {
+    "test": "ts-react-toolbox test",
+    "dev": "ts-react-toolbox dev",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "static": "ts-react-toolbox publish"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "jsnext:main": "dist/es2015/index.js",
+  "module": "dist/es2015/index.js",
+  "types": "dist/es5/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "repository": "",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
